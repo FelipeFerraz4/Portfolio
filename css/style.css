@@ -1,0 +1,79 @@
+:root {
+    --color1:#58C2FF;
+    --color2:#4B80C5;
+    --color3:#004AAD;
+    --color4: #111;
+    --color5: aliceblue;
+    --color6: #222;
+    --fontFamily: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--fontFamily);
+    background-color: var(--color4);
+    color: var(--color5);
+
+}
+
+.section_title  {
+    
+}
+
+.sub_title {
+
+}
+
+.default_color {
+    background-color: var(--color4);
+    color: var(--color5);
+}
+
+.container_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+.container_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .home {
+    padding-left: 1em;
+    height: 90vh;
+} */
+
+
+/* #about_section  {
+    height: 90vh;
+    margin: 0px;
+    padding: 1em;
+    width: 100vw;
+}
+
+#project_section {
+    height: 90vh;
+    margin: 0px;
+    padding: 1em;
+    width: 100vw;
+}
+
+#additional_activity_section {
+    height: 90vh;
+    margin: 0px;
+    padding: 1em;
+    width: 100vw;
+} */
+.section_title {
+    line-height: 2em;
+    padding: 1em;
+}

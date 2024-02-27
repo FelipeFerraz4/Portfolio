@@ -1,0 +1,30 @@
+.project_image {
+    width: 80%;
+}
+
+.project_icon {
+    width: 10%;
+}
+
+.project_card {
+    box-sizing: border-box;
+    background-color: #222;
+    /* padding: 0px 0px 1em 0px; */
+    border-radius: 4%;
+    /* width: 48%; */
+    /* margin: 0% 1%; */
+}
+
+@media screen and (min-width: 576px) {
+    .project_card {
+        width: 48%;
+        margin: 0% 1%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .project_card {
+        width: 23%;
+        margin: 0% 1%;
+    }
+}
