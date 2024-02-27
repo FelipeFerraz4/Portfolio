@@ -29,6 +29,7 @@ body {
 .default_color {
     background-color: var(--color4);
     color: var(--color5);
+    text-decoration: none;
 }
 
 .container_flex {
