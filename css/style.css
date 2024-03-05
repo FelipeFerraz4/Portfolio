@@ -18,14 +18,6 @@ body {
 
 }
 
-.section_title  {
-    
-}
-
-.sub_title {
-
-}
-
 .default_color {
     background-color: var(--color4);
     color: var(--color5);
@@ -47,33 +39,6 @@ body {
     align-items: center;
 }
 
-
-/* .home {
-    padding-left: 1em;
-    height: 90vh;
-} */
-
-
-/* #about_section  {
-    height: 90vh;
-    margin: 0px;
-    padding: 1em;
-    width: 100vw;
-}
-
-#project_section {
-    height: 90vh;
-    margin: 0px;
-    padding: 1em;
-    width: 100vw;
-}
-
-#additional_activity_section {
-    height: 90vh;
-    margin: 0px;
-    padding: 1em;
-    width: 100vw;
-} */
 .section_title {
     line-height: 2em;
     padding: 1em;
