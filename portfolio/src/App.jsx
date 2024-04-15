@@ -1,9 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Home from './pages/Home/index.jsx'
+import GlobalStyle from './styles/globalStyles'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Home />
-  </React.StrictMode>,
-)
+function App() {
+
+  return (
+    <>
+      <GlobalStyle />
+      <h1>Hello world</h1>
+    </>
+  )
+}
+
+export default App
