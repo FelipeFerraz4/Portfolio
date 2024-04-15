@@ -1,17 +1,31 @@
 import { createGlobalStyle } from 'styled-components';
 
+import RobotoBold from '../assets/fonts/Roboto-Bold.ttf';
+import RobotoRegular from '../assets/fonts/Roboto-Regular.ttf';
+
 const GlobalStyle = createGlobalStyle`
+    @font-face {
+        font-family: 'RobotoRegular';
+        src: local('Roboto Regular'), local('RobotoRegular'), url(${RobotoRegular});
+    }
+    @font-face {
+        font-family: 'RobotoBold';
+        src: local('Roboto Bold'), local('RobotoBold'), url(${RobotoBold});
+    }
     html {
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
+        line-height: 1.15; /* 1 */
+        -webkit-text-size-adjust: 100%; /* 2 */
+        font-family: Arial, Helvetica, sans-serif;
     }
-
+    
     body {
-    margin: 0;
+        margin: 0;
+        background-color: #111;
+        color: #FFFFFF;
     }
-
+    
     main {
-    display: block;
+        display: block;
     }
 
     h1 {
@@ -31,7 +45,9 @@ const GlobalStyle = createGlobalStyle`
     }
 
     a {
-    background-color: transparent;
+        background-color: transparent;
+        text-decoration: none;
+        color: #FFFFFF;
     }
 
     abbr[title] {
