@@ -1,18 +1,39 @@
-.additional_activity_beecrowd {
-    width: 70%;
-    background-color: #eee;
-    border-radius: 20%;
+
+.additional_activy_img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     box-sizing: content-box;
+    height: 150px;
+    width: 60%;
+}
+
+.beecrowd_img {
+    background-image: url('../assets/image/additionalActivities/beecrowd.png');
+}
+.leetCode_img {
+    background-image: url('../assets/image/additionalActivities/LeetCode.png');
+}
+
+.beecrowd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 @media screen and (min-width: 576px) {
-    .additional_activity_beecrowd {
-        width: 40%;
+    .additional_activy_img {
+        height: 250px;
     }
 }
 
 @media screen and (min-width: 992px) {
-    .additional_activity_beecrowd {
-        width: 20%;
+    .additional_activy_img {
+        height: 300px;
+    }
+    .beecrowd {
+        flex-direction: row;
     }
 }
