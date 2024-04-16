@@ -7,32 +7,31 @@ export const HeaderContainer = styled.header`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-right: 5%;
 
-    nav {
+    & > nav {
         display: none;
     }
 
-    nav ul {
+    & > nav ul {
         padding: 0px;
         display: inline-flex;
         list-style: none;
         gap: 20px;
     }
 
-    nav ul li div {
+    & > nav ul li div {
         display: none;
     }
 
-    nav ul li:hover div {
+    & > nav ul li:hover div {
         padding: 0px;
         display: block;
         position: absolute;
 
-        ul {
+        & > ul {
             display: block;
 
-            li {
+            & > li {
                 padding: 5px;
                 text-align: left;
                 border-radius: 10px;
@@ -59,7 +58,15 @@ export const HeaderContainer = styled.header`
         }
     }
 
+    & > div {
+        background-color: cornflowerblue;
+        width: 300px;
+        height: 100vh;
+        right: 0px;
+    }
+
     @media screen and (min-width: 700px) {
+        margin-right: 5%;
         button {
             display: none;
         }

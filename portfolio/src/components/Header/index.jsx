@@ -20,6 +20,7 @@ function Header () {
                 <div></div>
             </button>}
             {(sideBar) && <Sidebar>
+                {/* <Navbar /> */}
             </Sidebar>}
         </HeaderContainer>
     )
