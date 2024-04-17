@@ -22,15 +22,15 @@
           <img class="brand_image" src="./assets/image/brand/brand.png" alt="rabosa azul" srcset="">
           <h2 class="brand_title">Blue Fox</h2>
         </a>
-        <div class="mobile_offcanvas"  data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        <div class="mobile_offcanvas"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
           <div class="mobile_offcanvas_line"></div>
           <div class="mobile_offcanvas_line"></div>
           <div class="mobile_offcanvas_line"></div>
         </div>
-        
-        <div class="offcanvas offcanvas-end default_color" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+
+        <div class="offcanvas offcanvas-end default_color" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Guia de Informações</h5>
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Guia de Informações</h5>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16" data-bs-dismiss="offcanvas" aria-label="Close">
               <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z"/>
             </svg>
@@ -68,7 +68,7 @@
                   <ul class="sub_item">
                     <li class="navbar_item"><a class="item" href="#additional_activity_section">Beecrowd</a></li>
                     <li class="navbar_item"><a class="item" href="#leetcode">LeetCode</a></li>
-                    <li class="navbar_item"><a class="item" href="#Voluntary">Voluntariado</a></li>
+                    <li class="navbar_item"><a class="item" href="#Voluntary">Empresa Júnior</a></li>
                   </ul>
                 </li>
               </ul>
@@ -107,7 +107,7 @@
               <ul class="sub_item">
                 <li class="navbar_item"><a class="item" href="#additional_activity_section">Beecrowd</a></li>
                 <li class="navbar_item"><a class="item" href="#leetcode">LeetCode</a></li>
-                <li class="navbar_item"><a class="item" href="#Voluntary">Voluntariado</a></li>
+                <li class="navbar_item"><a class="item" href="#Voluntary">Empresa Júnior</a></li>
               </ul>
             </li>
           </ul>
@@ -192,19 +192,21 @@
         </div>
         <div class="row mx-3">
           <div class="col-12 col-sm-6 col-lg-3 text-center py-3 my-1 project_card">
-            <img src="./assets/image/project/Jogo_dos_5_simbolos.png" alt="Logo do jogo dos 5 simbolo" class="project_image">
-            <h5 class="pt-4">Jogo dos 5 Símbolos</h5>
-            <img src="./assets/icons/png/C.png" alt="" class="project_icon">
+            <img src="./assets/image/project/Busca_ao_tesouro.jpg" alt="Tela de combate do jogo" class="project_image_horizontal">
+            <h5 class="pt-4">Busca ao Tesouro</h5>
+            <img src="./assets/icons/png/python-original.png" alt="" class="project_icon">
+            <img src="./assets/icons/png/pygame_logo.png" alt="" class="project_icon2">
           </div>
           <div class="col-12 col-sm-6 col-lg-3 text-center py-3 my-1 project_card">
-            <img src="./assets/image/project/Jogo_dos_5_simbolos.png" alt="Logo do jogo dos 5 simbolo" class="project_image">
-            <h5 class="pt-4">Jogo dos 5 Símbolos</h5>
-            <img src="./assets/icons/png/C.png" alt="" class="project_icon">
+            <img src="./assets/image/project/pousada.jpg" alt="Logo do jogo dos 5 simbolo" class="project_image_horizontal">
+            <h5 class="pt-4">Gestão de Pousada</h5>
+            <img src="./assets/icons/png/java (5).png" alt="" class="project_icon">
           </div>
           <div class="col-12 col-sm-6 col-lg-3 text-center py-3 my-1 project_card">
-            <img src="./assets/image/project/Jogo_dos_5_simbolos.png" alt="Logo do jogo dos 5 simbolo" class="project_image">
-            <h5 class="pt-4">Jogo dos 5 Símbolos</h5>
-            <img src="./assets/icons/png/C.png" alt="" class="project_icon">
+            <img src="./assets/image/project/milky_way_defense.jpg" alt="Tela de combate do jogo" class="project_image_horizontal">
+            <h5 class="pt-4">Milky Way Defense</h5>
+            <img src="./assets/icons/png/python-original.png" alt="" class="project_icon">
+            <img src="./assets/icons/png/pygame_logo.png" alt="" class="project_icon2">
           </div>
           <div class="col-12 col-sm-6 col-lg-3 text-center py-3 my-1 project_card">
             <img src="./assets/image/project/Jogo_dos_5_simbolos.png" alt="Logo do jogo dos 5 simbolo" class="project_image">
@@ -255,90 +257,27 @@
         </div>
         <div id="Voluntary" class="row py-1">
           <h3 class="col-12 text-center my-3">
-            Voluntariado
+            Empresa Júnior
           </h3>
           <a href="#Voluntary" class="col-12 text-center default_color">
-            <!-- <div class="beecrowd">
-              <div class="leetCode_img additional_activy_img"></div>
+            <div class="beecrowd">
+              <div class="calang_img additional_activy_img"></div>
               <div>
+                <h5>Calang.io</h5>
                 <p>
-                  LeetCode é uma plataforma para aprimorar habilidades técnicas, ampliar conhecimentos e se preparar para entrevistas técnicas.
+                  A Calang.io é a empresa de desenvolvimento de software do curso de Ciência da Computação da UFCA. 
                 </p>
-                <h5>4 Algoritmos Construidos</h5>
-                <h6>Linguagem: JavaScript</h6>
+                <h6>Cargo: Diretor</h6>
               </div>
-            </div> -->
+            </div>
           </a>
         </div>
-        <!-- <div id="business" class="row">
-          <h3 class="col-12 text-center my-3">
-            Empresarial
-          </h3>
-        </div>
-        <div class="row mx-3">
-          <div class="col-12 col-sm-6 col-lg-3 text-center py-3 my-1 project_card">
-            <img src="./assets/image/project/Jogo_dos_5_simbolos.png" alt="Logo do jogo dos 5 simbolo" class="project_image">
-            <h5 class="pt-4">Jogo dos 5 Símbolos</h5>
-            <img src="./assets/icons/png/C.png" alt="" class="project_icon">
-          </div>
-          <div class="col-12 col-sm-6 col-lg-3 text-center py-3 my-1 project_card">
-            <img src="./assets/image/project/Jogo_dos_5_simbolos.png" alt="Logo do jogo dos 5 simbolo" class="project_image">
-            <h5 class="pt-4">Jogo dos 5 Símbolos</h5>
-            <img src="./assets/icons/png/C.png" alt="" class="project_icon">
-          </div>
-          <div class="col-12 col-sm-6 col-lg-3 text-center py-3 my-1 project_card">
-            <img src="./assets/image/project/Jogo_dos_5_simbolos.png" alt="Logo do jogo dos 5 simbolo" class="project_image">
-            <h5 class="pt-4">Jogo dos 5 Símbolos</h5>
-            <img src="./assets/icons/png/C.png" alt="" class="project_icon">
-          </div>
-          <div class="col-12 col-sm-6 col-lg-3 text-center py-3 my-1 project_card">
-            <img src="./assets/image/project/Jogo_dos_5_simbolos.png" alt="Logo do jogo dos 5 simbolo" class="project_image">
-            <h5 class="pt-4">Jogo dos 5 Símbolos</h5>
-            <img src="./assets/icons/png/C.png" alt="" class="project_icon">
-          </div>
-        </div>
-        <div id="academics" class="row">
-          <h3 class="col-12 text-center my-3">
-            Acadêmicos
-          </h3>
-        </div>
-        <div class="row mx-3">
-          <div class="col-12 col-sm-6 col-lg-3 text-center py-3 my-1 project_card">
-            <img src="./assets/image/project/Jogo_dos_5_simbolos.png" alt="Logo do jogo dos 5 simbolo" class="project_image">
-            <h5 class="pt-4">Jogo dos 5 Símbolos</h5>
-            <img src="./assets/icons/png/C.png" alt="" class="project_icon">
-          </div>
-          <div class="col-12 col-sm-6 col-lg-3 text-center py-3 my-1 project_card">
-            <img src="./assets/image/project/Jogo_dos_5_simbolos.png" alt="Logo do jogo dos 5 simbolo" class="project_image">
-            <h5 class="pt-4">Jogo dos 5 Símbolos</h5>
-            <img src="./assets/icons/png/C.png" alt="" class="project_icon">
-          </div>
-          <div class="col-12 col-sm-6 col-lg-3 text-center py-3 my-1 project_card">
-            <img src="./assets/image/project/Jogo_dos_5_simbolos.png" alt="Logo do jogo dos 5 simbolo" class="project_image">
-            <h5 class="pt-4">Jogo dos 5 Símbolos</h5>
-            <img src="./assets/icons/png/C.png" alt="" class="project_icon">
-          </div>
-          <div class="col-12 col-sm-6 col-lg-3 text-center py-3 my-1 project_card">
-            <img src="./assets/image/project/Jogo_dos_5_simbolos.png" alt="Logo do jogo dos 5 simbolo" class="project_image">
-            <h5 class="pt-4">Jogo dos 5 Símbolos</h5>
-            <img src="./assets/icons/png/C.png" alt="" class="project_icon">
-          </div>
-        </div> -->
       </section>
     </main>
     <footer class="default_color container_flex">
       <p class="footer_text">Copyright © Todos os direitos reservados a Felipe Ferraz</p>
     </footer>
     
-    <script>
-      var offcanvasElement = document.getElementById('offcanvasExample');
-      var offcanvas = new bootstrap.Offcanvas(offcanvasElement);
-    
-      offcanvasElement.addEventListener('hidden.bs.offcanvas', function () {
-        var backdrop = document.querySelector('.offcanvas-backdrop');
-        backdrop.parentNode.removeChild(backdrop);
-      });
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
