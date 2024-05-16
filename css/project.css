@@ -15,6 +15,11 @@
     width: 35%;
 }
 
+.project_link {
+    text-decoration: none;
+    color: var(--color5);
+}
+
 .project_card {
     box-sizing: border-box;
     background-color: #222;
