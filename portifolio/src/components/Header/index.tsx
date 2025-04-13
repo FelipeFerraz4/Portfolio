@@ -1,5 +1,5 @@
 import { Globe, Moon, Sun } from "lucide-react";
-import { Language } from "../../i18n/translations";
+import { Language, translations } from "../../i18n/translations";
 
 interface HeaderProps {
   darkMode: boolean;
@@ -14,13 +14,20 @@ export function Header({ darkMode, setDarkMode, language, setLanguage }: HeaderP
       <div className="flex items-center gap-2">
         <Globe />
         <select
-          className="bg-transparent border rounded px-2 py-1"
+          aria-label="Select language"
+          className={`bg-transparent border rounded px-2 py-1 ${darkMode ? 'text-white' : 'text-black'} focus:outline-none`}
           value={language}
           onChange={(e) => setLanguage(e.target.value as Language)}
         >
-          <option value="pt">Português</option>
-          <option value="en">English</option>
-          <option value="es">Español</option>
+          {Object.entries(translations[language].languageNames).map(([key, name]) => (
+            <option 
+              key={key} 
+              value={key} 
+              className={`${darkMode ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}
+            >
+              {name}
+            </option>
+          ))}
         </select>
       </div>
       <button
