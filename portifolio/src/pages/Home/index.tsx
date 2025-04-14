@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { AboutMe } from '../../components/AboutMe';
 import { Footer } from '../../components/Footer';
 import { Header } from "../../components/Header";
 import { Language, translations } from "../../i18n/translations";
@@ -32,6 +33,8 @@ export default function Home() {
         <p className="text-xl mb-4">{t.job}</p>
         <p className="max-w-xl mx-auto">{t.intro}</p>
       </main>
+
+      <AboutMe language={language} />
 
       <Footer language={language} />
     </div>
