@@ -37,13 +37,13 @@ interface ProjectModalProps {
               </video>
             )}
   
-            {project.image && (
+            {/* {project.image && (
               <img
                 src={project.image}
                 alt={project.title}
                 className="w-full rounded object-cover"
               />
-            )}
+            )} */}
           </div>
   
           <div className="mt-6 flex flex-wrap gap-2">
