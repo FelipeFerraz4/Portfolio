@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { AboutMe } from '../../components/AboutMe';
 import { Footer } from '../../components/Footer';
 import { Header } from "../../components/Header";
+import { SkillsSection } from '../../components/SkillsSection';
 import { Language, translations } from "../../i18n/translations";
 
 export default function Home() {
@@ -35,6 +36,8 @@ export default function Home() {
       </main>
 
       <AboutMe language={language} />
+
+      <SkillsSection language={language} darkMode={darkMode} />
 
       <Footer language={language} />
     </div>
