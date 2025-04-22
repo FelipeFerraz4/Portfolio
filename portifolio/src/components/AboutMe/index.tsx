@@ -1,4 +1,4 @@
-import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaGlobe, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { Language, translations } from "../../i18n/translations";
 
 interface AboutMeProps {
@@ -10,16 +10,16 @@ export function AboutMe({ language }: AboutMeProps) {
 
   return (
     <section id="about" className="py-12 px-6 max-w-6xl mx-auto">
-      <h2 className="text-3xl font-bold mb-8 text-center">{t.aboutMeTitle}</h2>
       <div className="flex flex-col lg:flex-row gap-10 items-start justify-between">
-        <p className="text-lg leading-relaxed text-justify whitespace-pre-line flex-1">
-          {t.aboutMeText}
-        </p>
+        <div className="flex-1">
+          <h2 className="text-3xl font-bold mb-8 text-center">{t.aboutMeTitle}</h2>
+          <p className="text-lg leading-relaxed text-justify whitespace-pre-line">
+            {t.aboutMeText}
+          </p>
+        </div>
 
         <div className="flex flex-col items-center gap-6 lg:w-80 w-full">
-          <span className="text-xl font-semibold text-center">
-            {language === "pt" ? "Minhas redes" : language === "es" ? "Mis redes" : "My social links"}
-          </span>
+          <span className="text-xl font-semibold text-center">{t.socialTitle}</span>
 
           <div className="grid grid-cols-2 gap-6 w-full text-center">
             <div>
@@ -29,9 +29,9 @@ export function AboutMe({ language }: AboutMeProps) {
               </a>
             </div>
             <div>
-              <a href="https://linkedin.com/in/seuusuario" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+              <a href="https://www.linkedin.com/in/felipeferraz4/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                 <FaLinkedin className="text-6xl mx-auto hover:text-blue-600 transition" />
-                <p className="mt-2 text-sm">LinkedIn<br />seuusuario</p>
+                <p className="mt-2 text-sm">LinkedIn<br />Felipe Ferraz</p>
               </a>
             </div>
             <div>
@@ -41,9 +41,9 @@ export function AboutMe({ language }: AboutMeProps) {
               </a>
             </div>
             <div>
-              <a href="https://instagram.com/seuusuario" target="_blank" rel="noopener noreferrer" title="Instagram">
-                <FaInstagram className="text-6xl mx-auto hover:text-pink-500 transition" />
-                <p className="mt-2 text-sm">Instagram<br />@seuusuario</p>
+              <a href="https://algoritmos.space" target="_blank" rel="noopener noreferrer" title="Algoritmos.space">
+                <FaGlobe className="text-6xl mx-auto hover:text-yellow-500 transition" />
+                <p className="mt-2 text-sm">Algoritmos.space<br />@algoritmos_space</p>
               </a>
             </div>
             <div className="col-span-2">
