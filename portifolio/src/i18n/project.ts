@@ -19,7 +19,7 @@ export interface Project {
     pt: {
       skills: [
         { name: 'Node.js', projectCount: 1, auxSkills: false },
-        { name: 'Python', projectCount: 0, auxSkills: false },
+        { name: 'Python', projectCount: 1, auxSkills: false },
         { name: 'Java', projectCount: 0, auxSkills: false },
         { name: 'C++', projectCount: 0, auxSkills: false },
         { name: 'C', projectCount: 0, auxSkills: false },
@@ -39,11 +39,11 @@ export interface Project {
         { name: 'React Native', projectCount: 0, auxSkills: false },
         { name: 'Docker', projectCount: 0, auxSkills: false },
         { name: 'Assembly', projectCount: 0, auxSkills: false },
-        { name: 'Git e GitHub', projectCount: 1, auxSkills: true },
+        { name: 'Git e GitHub', projectCount: 2, auxSkills: true },
         { name: 'Tailwind CSS', projectCount: 0, auxSkills: true },
         { name: 'Bootstrap', projectCount: 1, auxSkills: true },
         { name: 'Arduino', projectCount: 0, auxSkills: true },
-        { name: 'Pygame', projectCount: 0, auxSkills: true },
+        { name: 'Pygame', projectCount: 1, auxSkills: true },
       ],
       projects: [
         {
@@ -53,9 +53,20 @@ export interface Project {
           image: '/src/assets/images/workhub.png',
           videoUrl: '/src/assets/videos/workhub.mp4',
           skills: ['React', 'Node.js', 'MongoDB', 'Express', 'Postman', 'JavaScript', 'Git e GitHub', 'Bootstrap'],
-          date: '2025-04-10',
+          date: '2025-04-23',
           githubUrl: 'https://github.com/FelipeFerraz4/task-management-system',
         },
+        {
+          id: '2',
+          title: 'Milky Way Defense',
+          description: 'Milky Way Defense é um jogo onde você é um piloto da frota de defesa terrestre, encarregado de proteger a órbita da Terra contra forças inimigas misteriosas.',
+          image: '/src/assets/images/milky-way-defense.jpg',
+          videoUrl: '/src/assets/videos/milky-way-defense.mp4',
+          skills: ['Python', 'Pygame', 'Git e GitHub'],
+          date: '2025-04-07',
+          githubUrl: 'https://github.com/FelipeFerraz4/milky-way-defense',
+        },
+
         // {
         //   id: '2',
         //   title: 'Sistema de Pousadas',
@@ -143,6 +154,16 @@ export interface Project {
           date: '2025-04-10',
           githubUrl: 'https://github.com/FelipeFerraz4/task-management-system',
         },
+        {
+          id: '2',
+          title: 'Milky Way Defense',
+          description: 'Milky Way Defense is a game where you are a pilot from Earth’s defense fleet, tasked with protecting Earth’s orbit from mysterious enemy forces.',
+          image: '/src/assets/images/milky-way-defense.jpg',
+          videoUrl: '/src/assets/videos/milky-way-defense.mp4',
+          skills: ['Python', 'Pygame', 'Git e GitHub'],
+          date: '2025-04-07',
+          githubUrl: 'https://github.com/FelipeFerraz4/milky-way-defense',
+        },
         // {
         //   id: '2',
         //   title: 'Inn Management System',
@@ -229,6 +250,16 @@ export interface Project {
           skills: ['React', 'Node.js', 'MongoDB', 'Express', 'Postman', 'JavaScript', 'Git e GitHub', 'Bootstrap'],
           date: '2025-04-10',
           githubUrl: 'https://github.com/FelipeFerraz4/task-management-system',
+        },
+        {
+          id: '2',
+          title: 'Milky Way Defense',
+          description: 'Milky Way Defense es un juego en el que eres un piloto de la flota de defensa terrestre, encargado de proteger la órbita de la Tierra contra fuerzas enemigas misteriosas.',
+          image: '/src/assets/images/milky-way-defense.jpg',
+          videoUrl: '/src/assets/videos/milky-way-defense.mp4',
+          skills: ['Python', 'Pygame', 'Git e GitHub'],
+          date: '2025-04-07',
+          githubUrl: 'https://github.com/FelipeFerraz4/milky-way-defense',
         },
         // {
         //   id: '2',
