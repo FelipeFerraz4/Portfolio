@@ -59,8 +59,13 @@ interface ProjectModalProps {
             ))}
           </div>
   
+          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className={
+            `flex items-center gap-2 mt-4 text-sm font-semibold transition-colors duration-200 ${
+              darkMode ? 'text-white hover:text-gray-300' : 'text-blue-600 hover:text-blue-800'}`}>
+            GitHub do Projeto
+          </a>
           <p className={`text-sm mt-4 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-            Data: {new Date(project.date).toLocaleDateString()}
+            Data da última atualização: {new Date(project.date).toLocaleDateString()}
           </p>
         </div>
       </div>

@@ -66,7 +66,6 @@ interface SkillsSectionProps {
                 ))}
             </div>
         </div>
-
   
         {/* Projetos */}
         <div className="w-full">
