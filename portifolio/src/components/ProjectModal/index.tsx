@@ -1,15 +1,18 @@
 import React from 'react';
 import { Project } from '../../i18n/project';
+import { Language, translations } from '../../i18n/translations';
 
 interface ProjectModalProps {
     project?: Project;
     onClose: () => void;
     darkMode: boolean;
+    language: Language;
   }
   
 
-  const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose, darkMode }) => {
+  const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose, darkMode, language }) => {
     if (!project) return null;
+    const t = translations[language];
   
     return (
       <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex justify-center items-center">
@@ -62,10 +65,10 @@ interface ProjectModalProps {
           <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className={
             `flex items-center gap-2 mt-4 text-sm font-semibold transition-colors duration-200 ${
               darkMode ? 'text-white hover:text-gray-300' : 'text-blue-600 hover:text-blue-800'}`}>
-            GitHub do Projeto
+            {t.gitHubURL}
           </a>
           <p className={`text-sm mt-4 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-            Data da última atualização: {new Date(project.date).toLocaleDateString()}
+            {t.lastUpdate} {new Date(project.date).toLocaleDateString()}
           </p>
         </div>
       </div>
