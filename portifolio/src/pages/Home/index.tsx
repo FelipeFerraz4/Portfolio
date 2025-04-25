@@ -29,7 +29,7 @@ export default function Home() {
 
       <main className="p-6 text-center">
         <h1 className="text-4xl font-bold mb-2">
-          {t.greeting} <span className="text-blue-500">Felipe Ferrraz</span>
+          {t.greeting} <span className="text-blue-500">Felipe Ferraz</span>
         </h1>
         <p className="text-xl mb-4">{t.job}</p>
         <p className="max-w-xl mx-auto">{t.intro}</p>
