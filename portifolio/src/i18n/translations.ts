@@ -15,6 +15,8 @@ I’ve worked on blockchain projects during the Compass UOL training program and
     seeMore: "See more",
     gitHubURL: "Project GitHub",
     lastUpdate: "Last updated date:",
+    activitiesTitle: "Extracurricular Activities",
+
     footerTexts: {
       copyright: "© 2025 Blue Fox. All rights reserved.",
       mentions: "Creator of the channel Programador na Prática and the site algoritmos.space.",
@@ -41,6 +43,7 @@ Trabalhei em projetos de blockchain durante o programa de formação da Compass 
     seeMore: "Ver mais",
     gitHubURL: "GitHub do Projeto",
     lastUpdate: "Data da última atualização:",
+    activitiesTitle: "Atividades Extracurriculares",
     footerTexts: {
       copyright: "© 2025 Blue Fox. Todos os direitos reservados.",
       mentions: "Criador do canal Programador na Prática e do site algoritmos.space.",
@@ -67,6 +70,7 @@ Participé en proyectos de blockchain durante el programa de formación de Compa
     seeMore: "Ver más",
     gitHubURL: "Proyecto GitHub",
     lastUpdate: "Fecha de última actualización:",
+    activitiesTitle: "Actividades Extracurriculares",
     footerTexts: {
       copyright: "© 2025 Blue Fox. Todos los derechos reservados.",
       mentions: "Creador del canal Programador na Prática y del sitio algoritmos.space.",

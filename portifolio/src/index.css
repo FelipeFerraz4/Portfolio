@@ -3,3 +3,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+.bg-beecrowd { background-image: url('/images/beecrowd.png'); }
+.bg-leetcode { background-image: url('/images/leetcode.png'); }
+.bg-calang { background-image: url('/images/calangio.png'); }
