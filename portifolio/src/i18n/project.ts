@@ -18,7 +18,7 @@ export interface Project {
   const skills = [
     { name: 'Node.js', projectCount: 1, auxSkills: false },
     { name: 'Python', projectCount: 1, auxSkills: false },
-    { name: 'Java', projectCount: 1, auxSkills: false },
+    { name: 'Java', projectCount: 2, auxSkills: false },
     { name: 'C++', projectCount: 0, auxSkills: false },
     { name: 'C', projectCount: 0, auxSkills: false },
     { name: 'MySQL', projectCount: 0, auxSkills: false },
@@ -31,25 +31,25 @@ export interface Project {
     { name: 'HTML', projectCount: 0, auxSkills: false },
     { name: 'CSS', projectCount: 1, auxSkills: false },
     { name: 'JavaFX', projectCount: 0, auxSkills: true },
-    { name: 'Swing', projectCount: 0, auxSkills: true },
+    { name: 'Swing', projectCount: 1, auxSkills: true },
     { name: 'JavaScript', projectCount: 1, auxSkills: false },
     { name: 'React', projectCount: 1, auxSkills: false },
     { name: 'React Native', projectCount: 0, auxSkills: false },
     { name: 'Docker', projectCount: 0, auxSkills: false },
     { name: 'Assembly', projectCount: 0, auxSkills: false },
-    { name: 'Git e GitHub', projectCount: 3, auxSkills: true },
-    { name: 'Git and GitHub', projectCount: 3, auxSkills: true },
-    { name: 'Git y GitHub', projectCount: 3, auxSkills: true },
+    { name: 'Git e GitHub', projectCount: 4, auxSkills: true },
+    { name: 'Git and GitHub', projectCount: 4, auxSkills: true },
+    { name: 'Git y GitHub', projectCount: 4, auxSkills: true },
     { name: 'Tailwind CSS', projectCount: 0, auxSkills: true },
     { name: 'Bootstrap', projectCount: 1, auxSkills: true },
     { name: 'Arduino', projectCount: 0, auxSkills: true },
     { name: 'Pygame', projectCount: 1, auxSkills: true },
-    { name: 'Arquitetura em Camadas', projectCount: 1, auxSkills: true },
-    { name: 'Layered Architecture', projectCount: 1, auxSkills: true },
-    { name: 'Arquitectura en Capas', projectCount: 1, auxSkills: true },
-    { name: 'Arquitetura MVC', projectCount: 1, auxSkills: true },
-    { name: 'MVC Architecture', projectCount: 1, auxSkills: true },
-    { name: 'Arquitectura MVC', projectCount: 1, auxSkills: true },
+    { name: 'Arquitetura em Camadas', projectCount: 2, auxSkills: true },
+    { name: 'Layered Architecture', projectCount: 2, auxSkills: true },
+    { name: 'Arquitectura en Capas', projectCount: 2, auxSkills: true },
+    { name: 'Arquitetura MVC', projectCount: 2, auxSkills: true },
+    { name: 'MVC Architecture', projectCount: 2, auxSkills: true },
+    { name: 'Arquitectura MVC', projectCount: 2, auxSkills: true },
     { name: 'Padrão Fachada', projectCount: 1, auxSkills: true },
     { name: 'Facade Pattern', projectCount: 1, auxSkills: true },
     { name: 'Patrón Fachada', projectCount: 1, auxSkills: true },
@@ -104,7 +104,16 @@ export interface Project {
           date: '2022-10-15',
           githubUrl: 'https://github.com/FelipeFerraz4/Jogo-dos-5-simbolos',
         },
-        
+        {
+          id: "5",
+          title: "Sistema de Supermercado",
+          description: "Sistema desktop feito em Java para simular operações de supermercado. Possui interface gráfica com Swing, segue a arquitetura MVC com organização em camadas e repositórios em memória.",
+          image: "https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/supermercado.webp",
+          videoUrl: "https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/supermercado.webm",
+          skills: ["Java", "Swing", "Arquitetura em Camadas", "Arquitetura MVC", "Git e GitHub"],
+          date: "2025-05-10",
+          githubUrl: "https://github.com/FelipeFerraz4/supermarket-desktop"
+        },
         // {
         //   id: '3',
         //   title: 'Jogo Genius com Arduino',
@@ -185,6 +194,16 @@ export interface Project {
           skills: ['C', 'Git and GitHub'],
           date: '2022-10-15',
           githubUrl: 'https://github.com/FelipeFerraz4/Jogo-dos-5-simbolos',
+        },
+        {
+          id: "5",
+          title: "Supermarket System",
+          description: "Desktop system built with Java to simulate supermarket operations. Features GUI with Swing and follows MVC architecture with layered organization and in-memory repositories.",
+          image: "https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/supermercado.webp",
+          videoUrl: "https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/supermercado.webm",
+          skills: ["Java", "Swing", "Layered Architecture", "MVC Architecture", "Git and GitHub"],
+          date: "2025-05-10",
+          githubUrl: "https://github.com/FelipeFerraz4/supermarket-desktop"
         },
         
         // {
@@ -268,7 +287,16 @@ export interface Project {
           date: '2022-10-15',
           githubUrl: 'https://github.com/FelipeFerraz4/Jogo-dos-5-simbolos',
         },
-        
+        {
+          id: "5",
+          title: "Sistema de Supermercado",
+          description: "Sistema de escritorio desarrollado en Java para simular operaciones de supermercado. Cuenta con interfaz gráfica con Swing, arquitectura MVC en capas y repositorios en memoria.",
+          image: "https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/supermercado.webp",
+          videoUrl: "https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/supermercado.webm",
+          skills: ["Java", "Swing", "Arquitectura en Capas", "Arquitectura MVC", "Git y GitHub"],
+          date: "2025-05-10",
+          githubUrl: "https://github.com/FelipeFerraz4/supermarket-desktop"
+        },
         // {
         //   id: '3',
         //   title: 'Juego Genius con Arduino',
@@ -317,6 +345,9 @@ export interface Project {
   
   
   export const getProjectsByLanguage = (lang: string): Project[] => {
-    return data[lang as keyof typeof data]?.projects || data.pt.projects;
+    const projects = data[lang as keyof typeof data]?.projects || data.pt.projects;
+    
+    return [...projects].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
   };
+  
   
