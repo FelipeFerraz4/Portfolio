@@ -35,14 +35,15 @@ export const ActivityModal: React.FC<ActivityModalProps> = ({ activity, onClose,
 
         {/* Left: Small image */}
         {activity.imageLink && (
-          <div className="w-full md:w-1/3 h-48 md:h-auto">
+          <div className="w-full md:w-1/3 flex justify-center items-center p-2">
             <img
               src={activity.imageLink}
               alt={activity.title}
-              className="object-cover w-full h-full"
+              className="max-h-48 md:max-h-64 w-auto object-contain rounded-lg"
             />
           </div>
         )}
+
 
         {/* Right: Content */}
         <div className="w-full md:w-2/3 p-6">
