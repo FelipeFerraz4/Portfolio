@@ -6,99 +6,115 @@ export interface Activity {
   description: string;
   details: string;
   stats: string;
-  language: string;
+  language: Array<string>;
   link?: string;
   imageLink: string;
+  data: string;
 }
 
 export const activities: Record<Language, Activity[]> = {
     en: [
       {
-        id: 'beecrowd',
+        id: '1',
         title: 'Beecrowd',
+        data: '2025-05-20',
         description: 'Platform to train algorithms and programming challenges.',
         details: 'Completed over 250 challenges using Python.',
         stats: '258 Algorithms',
-        language: 'Python',
+        language: ['Python', 'C++'],
         link: 'https://judge.beecrowd.com/pt/profile/872408',
         imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/beecrowd.webp'
       },
       {
-        id: 'leetcode',
+        id: '2',
         title: 'LeetCode',
+        data: '2025-05-20',
         description: 'Enhance technical skills and prepare for interviews.',
         details: 'Solved problems in JavaScript.',
         stats: '4 Algorithms',
-        language: 'JavaScript',
+        language: ['JavaScript'],
+        link: 'https://judge.beecrowd.com/pt/profile/872408',
         imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/LeetCode.webp'
       },
       {
-        id: 'calangio',
+        id: '3',
         title: 'Calang.io',
+        data: '2025-05-20',
         description: 'Software company from UFCA Computer Science course.',
         details: 'Worked as Director in software projects.',
         stats: 'Position: Director',
-        language: 'Various',
+        language: ['Node.js', 'Java'],
+        link: 'https://judge.beecrowd.com/pt/profile/872408',
         imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/calangio.webp'
       }
     ],
     pt: [
       {
-        id: 'beecrowd',
+        id: '1',
         title: 'Beecrowd',
+        data: '2025-05-20',
         description: 'Plataforma para treinar algoritmos e desafios de programação.',
         details: 'Resolvi mais de 250 desafios usando Python.',
         stats: '258 Algoritmos',
-        language: 'Python',
+        language: ['Python', 'C++'],
         link: 'https://judge.beecrowd.com/pt/profile/872408',
         imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/beecrowd.webp'
       },
       {
-        id: 'leetcode',
+        id: '2',
         title: 'LeetCode',
+        data: '2025-05-20',
         description: 'Aprimore habilidades técnicas e prepare-se para entrevistas.',
         details: 'Resolvi problemas usando JavaScript.',
         stats: '4 Algoritmos',
-        language: 'JavaScript',
+        language: ['JavaScript'],
+        link: 'https://judge.beecrowd.com/pt/profile/872408',
         imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/LeetCode.webp'
       },
       {
-        id: 'calangio',
+        id: '3',
         title: 'Calang.io',
+        data: '2025-05-20',
         description: 'Empresa júnior do curso de Ciência da Computação da UFCA.',
         details: 'Atuei como Diretor em projetos de software.',
         stats: 'Cargo: Diretor',
-        language: 'Diversos',
+        language: ['Node.js', 'Java'],
+        link: 'https://judge.beecrowd.com/pt/profile/872408',
         imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/calangio.webp'
       }
     ],
     es: [
       {
-        id: 'beecrowd',
+        id: '1',
         title: 'Beecrowd',
+        data: '2025-05-20',
         description: 'Plataforma para entrenar algoritmos y desafíos de programación.',
         details: 'Resolví más de 250 desafíos usando Python.',
         stats: '258 Algoritmos',
-        language: 'Python',
+        language: ['Python', 'C++'],
         link: 'https://judge.beecrowd.com/pt/profile/872408',
         imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/beecrowd.webp'
       },
       {
-        id: 'leetcode',
+        id: '2',
         title: 'LeetCode',
+        data: '2025-05-20',
         description: 'Mejora habilidades técnicas y prepárate para entrevistas.',
         details: 'Resolví problemas usando JavaScript.',
         stats: '4 Algoritmos',
-        language: 'JavaScript',
+        language: ['JavaScript'],
+        link: 'https://judge.beecrowd.com/pt/profile/872408',
         imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/LeetCode.webp'
       },
       {
-        id: 'calangio',
+        id: '3',
         title: 'Calang.io',
+        data: '2025-05-20',
         description: 'Empresa júnior del curso de Ciencias de la Computación de la UFCA.',
         details: 'Actué como Director en proyectos de software.',
         stats: 'Cargo: Director',
-        language: 'Varios',
+        language: ['Node.js', 'Java'],
+        link: 'https://judge.beecrowd.com/pt/profile/872408',
         imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/calangio.webp'
       }
     ]
