@@ -18,14 +18,14 @@ export interface Project {
   const skills = [
     { name: 'Node.js', projectCount: 1, auxSkills: false },
     { name: 'Python', projectCount: 1, auxSkills: false },
-    { name: 'Java', projectCount: 2, auxSkills: false },
+    { name: 'Java', projectCount: 3, auxSkills: false },
     { name: 'C++', projectCount: 0, auxSkills: false },
-    { name: 'C', projectCount: 0, auxSkills: false },
+    { name: 'C', projectCount: 1, auxSkills: false },
     { name: 'MySQL', projectCount: 0, auxSkills: false },
     { name: 'PostgreSQL', projectCount: 0, auxSkills: false },
     { name: 'MongoDB', projectCount: 1, auxSkills: false },
     { name: 'Express', projectCount: 1, auxSkills: false },
-    { name: 'Spring Boot', projectCount: 0, auxSkills: false },
+    { name: 'Spring Boot', projectCount: 1, auxSkills: false },
     { name: 'TypeScript', projectCount: 0, auxSkills: false },
     { name: 'Postman', projectCount: 1, auxSkills: true },
     { name: 'HTML', projectCount: 0, auxSkills: false },
@@ -37,24 +37,24 @@ export interface Project {
     { name: 'React Native', projectCount: 0, auxSkills: false },
     { name: 'Docker', projectCount: 0, auxSkills: false },
     { name: 'Assembly', projectCount: 0, auxSkills: false },
-    { name: 'Git e GitHub', projectCount: 4, auxSkills: true },
-    { name: 'Git and GitHub', projectCount: 4, auxSkills: true },
-    { name: 'Git y GitHub', projectCount: 4, auxSkills: true },
+    { name: 'Git e GitHub', projectCount: 5, auxSkills: true },
+    { name: 'Git and GitHub', projectCount: 5, auxSkills: true },
+    { name: 'Git y GitHub', projectCount: 5, auxSkills: true },
     { name: 'Tailwind CSS', projectCount: 0, auxSkills: true },
     { name: 'Bootstrap', projectCount: 1, auxSkills: true },
     { name: 'Arduino', projectCount: 0, auxSkills: true },
     { name: 'Pygame', projectCount: 1, auxSkills: true },
-    { name: 'Arquitetura em Camadas', projectCount: 2, auxSkills: true },
-    { name: 'Layered Architecture', projectCount: 2, auxSkills: true },
-    { name: 'Arquitectura en Capas', projectCount: 2, auxSkills: true },
-    { name: 'Arquitetura MVC', projectCount: 2, auxSkills: true },
-    { name: 'MVC Architecture', projectCount: 2, auxSkills: true },
-    { name: 'Arquitectura MVC', projectCount: 2, auxSkills: true },
+    { name: 'Arquitetura em Camadas', projectCount: 3, auxSkills: true },
+    { name: 'Layered Architecture', projectCount: 3, auxSkills: true },
+    { name: 'Arquitectura en Capas', projectCount: 3, auxSkills: true },
+    { name: 'Arquitetura MVC', projectCount: 3, auxSkills: true },
+    { name: 'MVC Architecture', projectCount: 3, auxSkills: true },
+    { name: 'Arquitectura MVC', projectCount: 3, auxSkills: true },
     { name: 'Padrão Fachada', projectCount: 1, auxSkills: true },
     { name: 'Facade Pattern', projectCount: 1, auxSkills: true },
     { name: 'Patrón Fachada', projectCount: 1, auxSkills: true },
-    { name: 'API REST', projectCount: 1, auxSkills: true },
-    { name: 'REST API', projectCount: 1, auxSkills: true },
+    { name: 'API REST', projectCount: 2, auxSkills: true },
+    { name: 'REST API', projectCount: 2, auxSkills: true },
     { name: 'API RESTful', projectCount: 0, auxSkills: true },
     { name: 'RESTful API', projectCount: 0, auxSkills: true },
   ];
@@ -114,6 +114,17 @@ export interface Project {
           date: "2025-05-10",
           githubUrl: "https://github.com/FelipeFerraz4/supermarket-desktop"
         },
+        {
+          id: '6',
+          title: 'Pizzeria',
+          description: 'MVP de um sistema de pizzaria que permite o gerenciamento de usuários, pizzas e pedidos por meio de uma API REST desenvolvida em Java com Spring.',
+          image: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/06/Captura-de-tela-2025-06-05-002429.webp',
+          videoUrl: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/06/pizzeria_api.webm',
+          skills: ['Java', 'Spring Boot', 'API REST', 'Arquitetura MVC', 'Arquitetura em Camadas', 'Git e GitHub'],
+          date: '2025-06-05',
+          githubUrl: 'https://github.com/FelipeFerraz4/pizzeria.git'
+        }
+
         // {
         //   id: '3',
         //   title: 'Jogo Genius com Arduino',
@@ -205,7 +216,17 @@ export interface Project {
           date: "2025-05-10",
           githubUrl: "https://github.com/FelipeFerraz4/supermarket-desktop"
         },
-        
+        {
+          id: '6',
+          title: 'Pizzeria',
+          description: 'MVP of a pizzeria management system that handles users, pizzas, and orders through a REST API built with Java and Spring.',
+          image: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/06/Captura-de-tela-2025-06-05-002429.webp',
+          videoUrl: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/06/pizzeria_api.webm',
+          skills: ['Java', 'Spring Boot', 'REST API', 'MVC Architecture', 'Layered Architecture', 'Git and GitHub'],
+          date: '2025-06-05',
+          githubUrl: 'https://github.com/FelipeFerraz4/pizzeria.git'
+        }
+
         // {
         //   id: '3',
         //   title: 'Genius Game with Arduino',
@@ -297,6 +318,16 @@ export interface Project {
           date: "2025-05-10",
           githubUrl: "https://github.com/FelipeFerraz4/supermarket-desktop"
         },
+        {
+          id: '6',
+          title: 'Pizzería',
+          description: 'MVP de un sistema de gestión de pizzería que permite administrar usuarios, pizzas y pedidos mediante una API REST desarrollada en Java con Spring.',
+          image: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/06/Captura-de-tela-2025-06-05-002429.webp',
+          videoUrl: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/06/pizzeria_api.webm',
+          skills: ['Java', 'Spring Boot', 'API REST', 'Arquitectura MVC', 'Arquitectura en Capas', 'Git y GitHub'],
+          date: '2025-06-05',
+          githubUrl: 'https://github.com/FelipeFerraz4/pizzeria.git'
+        }
         // {
         //   id: '3',
         //   title: 'Juego Genius con Arduino',
