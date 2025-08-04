@@ -19,8 +19,8 @@ export const activities: Record<Language, Activity[]> = {
         title: 'Beecrowd',
         data: '2025-05-20',
         description: 'Platform for algorithm training and programming challenges.',
-        details: 'Solved over 563 challenges focused on algorithms and data structures, mainly using Python and C++.',
-        stats: '563 Solved Algorithms',
+        details: 'Solved over 635 challenges focused on algorithms and data structures, mainly using Python and C++.',
+        stats: '635 Solved Algorithms',
         language: ['Python', 'C++'],
         link: 'https://github.com/FelipeFerraz4/Beecrowd',
         imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/beecrowd.webp'
@@ -65,8 +65,8 @@ export const activities: Record<Language, Activity[]> = {
         title: 'Beecrowd',
         data: '2025-05-20',
         description: 'Plataforma para treinar algoritmos e desafios de programação.',
-        details: 'Resolvi mais de 563 desafios, com foco em algoritmos e estruturas de dados. Utilizei principalmente Python e C++.',
-        stats: '563 Algoritmos resolvidos',
+        details: 'Resolvi mais de 635 desafios, com foco em algoritmos e estruturas de dados. Utilizei principalmente Python e C++.',
+        stats: '635 Algoritmos resolvidos',
         language: ['Python', 'C++'],
         link: 'https://github.com/FelipeFerraz4/Beecrowd',
         imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/beecrowd.webp'
@@ -111,8 +111,8 @@ export const activities: Record<Language, Activity[]> = {
         title: 'Beecrowd',
         data: '2025-05-20',
         description: 'Plataforma para entrenar algoritmos y desafíos de programación.',
-        details: 'Resolví más de 563 desafíos, centrado en algoritmos y estructuras de datos. Usé principalmente Python y C++.',
-        stats: '563 algoritmos resueltos',
+        details: 'Resolví más de 635 desafíos, centrado en algoritmos y estructuras de datos. Usé principalmente Python y C++.',
+        stats: '635 algoritmos resueltos',
         language: ['Python', 'C++'],
         link: 'https://github.com/FelipeFerraz7/Beecrowd',
         imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/beecrowd.webp'

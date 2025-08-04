@@ -13,7 +13,7 @@ export function AboutMe({ language }: AboutMeProps) {
       <div className="flex flex-col lg:flex-row gap-10 items-start justify-between">
         <div className="flex-1">
           <h2 className="text-3xl font-bold mb-8 text-center">{t.aboutMeTitle}</h2>
-          <p className="text-lg leading-relaxed text-justify whitespace-pre-line">
+          <p className="text-md leading-relaxed text-justify whitespace-pre-line">
             {t.aboutMeText}
           </p>
         </div>
