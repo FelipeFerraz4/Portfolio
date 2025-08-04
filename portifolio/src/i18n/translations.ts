@@ -36,11 +36,11 @@ I worked as a scholarship student at Compass UOL and the Information Technology 
     intro: "Bem-vindo ao meu portfólio. Aqui você encontrará meus projetos, habilidades e formas de contato.",
     aboutMeTitle: "Sobre Mim",
     socialTitle: "Minhas redes",
-    aboutMeText: `Soy estudiante de Ciencias de la Computación en la UFCA, donde comencé mi trayectoria en programación a través de un proyecto de extensión enfocado en Java. Desde entonces, he profundizado mis conocimientos en desarrollo Full Stack, con experiencia práctica en Java (Spring Boot), Node.js (Express) y Python. En el front-end, trabajo con React.js, HTML, CSS y Bootstrap, además de tener experiencia en desarrollo móvil con Java, Kotlin y React Native.
+    aboutMeText: `Sou estudante de Ciência da Computação na UFCA, onde iniciei minha trajetória na programação por meio de um projeto de extensão com foco em Java. Desde então, aprofundei meus conhecimentos em desenvolvimento Full Stack, com experiência prática em Java (Spring Boot), Node.js (Express) e Python. No front-end, atuo com React.js, HTML, CSS e Bootstrap, além de ter conhecimentos em desenvolvimento mobile com Java, Kotlin e React Native.
 
-Tengo sólidos conocimientos en bases de datos relacionales y no relacionales (PostgreSQL, MySQL, MongoDB), y utilizo Git para el control de versiones. He desarrollado APIs, integrado sistemas e implementado arquitecturas como MVC y por capas, siempre enfocado en la calidad y en seguir buenas prácticas. Tengo experiencia con pruebas automatizadas usando Jest y JUnit, y estoy familiarizado con Docker y metodologías ágiles.
+Tenho domínio em bancos de dados relacionais e não relacionais (PostgreSQL, MySQL, MongoDB) e utilizo Git para controle de versionamento. Já desenvolvi APIs, integrei sistemas e implementei arquiteturas como MVC e em camadas, sempre prezando pela qualidade e boas práticas. Tenho experiência com testes automatizados (Jest e JUnit), além de familiaridade com Docker e metodologias ágeis.
 
-Trabajé como becario en Compass UOL y en la Dirección de Tecnología de la Información (DTI) de la UFCA. También participé activamente en la reestructuración de la empresa júnior Calang.io, donde ocupé cargos de liderazgo. Además, soy miembro fundador de LACCA, donde preparo equipos para competencias de programación. Recientemente obtuve la certificación AWS Cloud Practitioner.`,
+Atuei como bolsista na Compass UOL e na Diretoria de Tecnologia da Informação (DTI) da UFCA. Também participei ativamente da reestruturação da empresa júnior Calang.io, onde exerci funções de liderança, e sou membro fundador da LACCA, onde preparo equipes para competições de programação. Recentemente, conquistei a certificação AWS Cloud Practitioner.`,
     skillsTitle: "Habilidades",
     projectsTitle: "Projetos",
     next: "Anterior",
