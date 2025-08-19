@@ -35,9 +35,9 @@ export function AboutMe({ language }: AboutMeProps) {
               </a>
             </div>
             <div>
-              <a href="https://youtube.com/@programadornapratica" target="_blank" rel="noopener noreferrer" title="YouTube">
+              <a href="https://www.youtube.com/@AlgoritmosSpace" target="_blank" rel="noopener noreferrer" title="YouTube">
                 <FaYoutube className="text-6xl mx-auto hover:text-red-500 transition" />
-                <p className="mt-2 text-sm">YouTube<br />@programadornapratica</p>
+                <p className="mt-2 text-sm">YouTube<br />@AlgoritmosSpace</p>
               </a>
             </div>
             <div>
@@ -47,9 +47,9 @@ export function AboutMe({ language }: AboutMeProps) {
               </a>
             </div>
             <div className="col-span-2">
-              <a href="mailto:programadornapratica@gmail.com" title="Email">
+              <a href="mailto:algoritmos.space@gmail.com" title="Email">
                 <FaEnvelope className="text-6xl mx-auto hover:text-green-600 transition" />
-                <p className="mt-2 text-sm">Email<br />programadornapratica@gmail.com</p>
+                <p className="mt-2 text-sm">Email<br />algoritmos.space@gmail.com</p>
               </a>
             </div>
           </div>
