@@ -21,7 +21,7 @@ I worked as a scholarship student at Compass UOL and the Information Technology 
 
     footerTexts: {
       copyright: "© 2025 Blue Fox. All rights reserved.",
-      mentions: "Creator of the channel Programador na Prática and the site algoritmos.space.",
+      mentions: "Creator of the channel Algoritmos Space and the site algoritmos.space.",
     },
 
     languageNames: {
@@ -51,7 +51,7 @@ Atuei como bolsista na Compass UOL e na Diretoria de Tecnologia da Informação 
     activitiesTitle: "Atividades Extracurriculares",
     footerTexts: {
       copyright: "© 2025 Blue Fox. Todos os direitos reservados.",
-      mentions: "Criador do canal Programador na Prática e do site algoritmos.space.",
+      mentions: "Criador do canal Algoritmos Space e do site algoritmos.space.",
     },
     languageNames: {
       pt: "Português",
@@ -80,7 +80,7 @@ Trabajé como becario en Compass UOL y en la Dirección de Tecnología de la Inf
     activitiesTitle: "Actividades Extracurriculares",
     footerTexts: {
       copyright: "© 2025 Blue Fox. Todos los derechos reservados.",
-      mentions: "Creador del canal Programador na Prática y del sitio algoritmos.space.",
+      mentions: "Creador del canal Algoritmos Space y del sitio algoritmos.space.",
     },
     languageNames: {
       pt: "Portugués",

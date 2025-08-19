@@ -12,7 +12,7 @@ export function Footer({ language }: FooterProps) {
     <footer className="text-center text-sm py-6 border-t mt-8 px-4">
       <div className="flex justify-center gap-6 mb-2">
         <a
-          href="https://github.com/seu-usuario"
+          href="https://github.com/FelipeFerraz4"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:opacity-75 transition"
@@ -20,7 +20,7 @@ export function Footer({ language }: FooterProps) {
           <Github size={20} />
         </a>
         <a
-          href="https://linkedin.com/in/seu-usuario"
+          href="https://www.linkedin.com/in/felipeferraz4/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:opacity-75 transition"
@@ -28,13 +28,13 @@ export function Footer({ language }: FooterProps) {
           <LinkedinIcon size={20} />
         </a>
         <a
-          href="mailto:seuemail@exemplo.com"
+          href="mailto:algoritmos.space@gmail.com"
           className="hover:opacity-75 transition"
         >
           <Mail size={20} />
         </a>
         <a
-          href="https://youtube.com/@programadornapratica"
+          href="https://www.youtube.com/@AlgoritmosSpace"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:opacity-75 transition"
