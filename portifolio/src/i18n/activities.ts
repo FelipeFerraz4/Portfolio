@@ -23,7 +23,7 @@ export const activities: Record<Language, Activity[]> = {
         stats: '635 Solved Algorithms',
         language: ['Python', 'C++'],
         link: 'https://github.com/FelipeFerraz4/Beecrowd',
-        imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/beecrowd.webp'
+        imageLink: '/assets/images/beecrowd.webp'
       },
       {
         id: '2',
@@ -34,7 +34,7 @@ export const activities: Record<Language, Activity[]> = {
         stats: '7 Solved Algorithms',
         language: ['JavaScript'],
         link: 'https://github.com/FelipeFerraz4/LeetCode',
-        imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/LeetCode.webp'
+        imageLink: '/assets/images/LeetCode.webp'
       },
       {
         id: '3',
@@ -45,7 +45,7 @@ export const activities: Record<Language, Activity[]> = {
         stats: 'Current Role: Project Advisor',
         language: ['Node.js', 'Java'],
         link: 'https://www.instagram.com/calang.io_ej/',
-        imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/calangio.webp'
+        imageLink: '/assets/images/calangio.webp'
       },
       {
         id: '4',
@@ -56,7 +56,7 @@ export const activities: Record<Language, Activity[]> = {
         stats: 'Role: Member',
         language: ['Python', 'C++'],
         link: 'https://www.instagram.com/lacca_ufca/',
-        imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/06/Logo.webp'
+        imageLink: '/assets/images/lacca.webp'
       }
     ],
     pt: [
@@ -69,7 +69,7 @@ export const activities: Record<Language, Activity[]> = {
         stats: '635 Algoritmos resolvidos',
         language: ['Python', 'C++'],
         link: 'https://github.com/FelipeFerraz4/Beecrowd',
-        imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/beecrowd.webp'
+        imageLink: '/assets/images/beecrowd.webp'
       },
       {
         id: '2',
@@ -80,7 +80,7 @@ export const activities: Record<Language, Activity[]> = {
         stats: '7 Algoritmos resolvidos',
         language: ['JavaScript'],
         link: 'https://github.com/FelipeFerraz4/LeetCode',
-        imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/LeetCode.webp'
+        imageLink: '/assets/images/LeetCode.webp'
       },
       {
         id: '3',
@@ -91,7 +91,7 @@ export const activities: Record<Language, Activity[]> = {
         stats: 'Cargo atual: Conselheiro de Projetos',
         language: ['Node.js', 'Java'],
         link: 'https://www.instagram.com/calang.io_ej/',
-        imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/calangio.webp'
+        imageLink: '/assets/images/calangio.webp'
       },
       {
         id: '4',
@@ -102,7 +102,7 @@ export const activities: Record<Language, Activity[]> = {
         stats: 'Cargo: Membro',
         language: ['Python', 'C++'],
         link: 'https://www.instagram.com/lacca_ufca/',
-        imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/06/Logo.webp'
+        imageLink: '/assets/images/lacca.webp'
       }
     ],
     es: [
@@ -115,7 +115,7 @@ export const activities: Record<Language, Activity[]> = {
         stats: '635 algoritmos resueltos',
         language: ['Python', 'C++'],
         link: 'https://github.com/FelipeFerraz7/Beecrowd',
-        imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/beecrowd.webp'
+        imageLink: '/assets/images/beecrowd.webp'
       },
       {
         id: '2',
@@ -126,7 +126,7 @@ export const activities: Record<Language, Activity[]> = {
         stats: '7 algoritmos resueltos',
         language: ['JavaScript'],
         link: 'https://github.com/FelipeFerraz4/LeetCode',
-        imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/LeetCode.webp'
+        imageLink: '/assets/images/LeetCode.webp'
       },
       {
         id: '3',
@@ -137,7 +137,7 @@ export const activities: Record<Language, Activity[]> = {
         stats: 'Cargo actual: Consejero de Proyectos',
         language: ['Node.js', 'Java'],
         link: 'https://www.instagram.com/calang.io_ej/',
-        imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/05/calangio.webp'
+        imageLink: '/assets/images/calangio.webp'
       },
       {
         id: '4',
@@ -148,7 +148,7 @@ export const activities: Record<Language, Activity[]> = {
         stats: 'Rol: Miembro',
         language: ['Python', 'C++'],
         link: 'https://www.instagram.com/lacca_ufca/',
-        imageLink: 'https://orange-barracuda-883216.hostingersite.com/wp-content/uploads/2025/06/Logo.webp'
+        imageLink: '/assets/images/lacca.webp'
       }
     ]
   };
