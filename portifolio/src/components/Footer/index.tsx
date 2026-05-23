@@ -28,7 +28,7 @@ export function Footer({ language }: FooterProps) {
           <LinkedinIcon size={20} />
         </a>
         <a
-          href="mailto:algoritmos.space@gmail.com"
+          href="mailto:blue.fox.group.contact@gmail.com"
           className="hover:opacity-75 transition"
         >
           <Mail size={20} />
