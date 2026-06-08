@@ -42,7 +42,7 @@ export function Footer({ language }: FooterProps) {
           <Youtube size={20} />
         </a>
         <a
-          href="https://algoritmos.space"
+          href="https://bluefoxaquarismo.space/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:opacity-75 transition"

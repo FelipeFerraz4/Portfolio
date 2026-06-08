@@ -86,7 +86,7 @@ export function AboutMe({ language }: AboutMeProps) {
               >
                 <FaGlobe className="text-6xl mx-auto hover:text-yellow-500 transition" />
                 <p className="mt-2 text-sm">
-                  Blog
+                  Plataforma Educacional
                   <br />
                   Blue Fox Aquarismo
                 </p>

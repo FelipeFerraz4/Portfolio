@@ -25,7 +25,7 @@ export const translations = {
     footerTexts: {
       copyright: `© ${new Date().getFullYear()} Blue Fox Group. All rights reserved.`,
       mentions:
-        "Creator of the channel Algoritmos Space and the site algoritmos.space.",
+        "Creator of the channel Algoritmos Space and the site bluefoxaquarismo.space.",
     },
 
     languageNames: {
@@ -58,7 +58,7 @@ export const translations = {
     activitiesTitle: "Atividades Extracurriculares",
     footerTexts: {
       copyright: `© ${new Date().getFullYear()} Blue Fox Group. Todos os direitos reservados.`,
-      mentions: "Criador do canal Algoritmos Space e do site algoritmos.space.",
+      mentions: "Criador do canal Algoritmos Space e do site bluefoxaquarismo.space.",
     },
     languageNames: {
       pt: "Português",
@@ -91,7 +91,7 @@ export const translations = {
     footerTexts: {
       copyright: `© ${new Date().getFullYear()} Blue Fox Group. Todos los derechos reservados.`,
       mentions:
-        "Creador del canal Algoritmos Space y del sitio algoritmos.space.",
+        "Creador del canal Algoritmos Space y del sitio bluefoxaquarismo.space.",
     },
     languageNames: {
       pt: "Portugués",
