@@ -79,16 +79,16 @@ export function AboutMe({ language }: AboutMeProps) {
             </div>
             <div>
               <a
-                href="https://algoritmos.space"
+                href="https://bluefoxaquarismo.space/"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Algoritmos.space"
+                title="Blue Fox Aquarismo"
               >
                 <FaGlobe className="text-6xl mx-auto hover:text-yellow-500 transition" />
                 <p className="mt-2 text-sm">
-                  Algoritmos.space
+                  Blog
                   <br />
-                  @algoritmos_space
+                  Blue Fox Aquarismo
                 </p>
               </a>
             </div>
